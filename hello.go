@@ -10,7 +10,7 @@ hehehehhheeh
 */
 func main() {
 	//fmt.Println("Hello World")
-	var greet string = "hello world"
+	/*var greet string = "hello world"
 	var greeet = "And"
 	greeting := "bye world"
 	fmt.Println(greet, greeet, greeting) // This will print hello world And bye world
@@ -40,5 +40,33 @@ func main() {
 		ab string = "av"
 		tf        = true
 	)
-	fmt.Print(hi, tf)
+	fmt.Println(hi, tf)*/
+	//foutput()
+	verb()
+}
+
+func foutput() {
+	var j = 10
+	var i = 10
+	fmt.Println(i, j) // there is space in between by default
+
+	var x string = "hello"
+	y := "by"
+
+	fmt.Print(x, y) // observe there is no space in between
+	fmt.Println()
+	// so the variables are intgers print automatically addds space but when it is string we have to add it by our selvs
+	fmt.Print(x, " ", y)
+	fmt.Println()
+	//but when we use println no need to add manually
+	fmt.Println(x, y)
+}
+
+func verb() {
+	yz := "hello"
+	zy := 22
+	fmt.Printf("The value of the zy variable is %v and the Type is %T\n", zy, zy)
+	fmt.Printf("The value of the yz variable is %v and the Type is %T\n", yz, yz)
+	fmt.Printf("%10d\n", zy) //adds 0 spacing from right
+	fmt.Printf("%04d\n", zy) // checks number is 4 digit or not if not adds remaing zeros to it
 }
