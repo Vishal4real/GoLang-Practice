@@ -67,6 +67,6 @@ func verb() {
 	zy := 22
 	fmt.Printf("The value of the zy variable is %v and the Type is %T\n", zy, zy)
 	fmt.Printf("The value of the yz variable is %v and the Type is %T\n", yz, yz)
-	fmt.Printf("%10d\n", zy) //adds 0 spacing from right
+	fmt.Printf("%10d\n", zy) //adds 10 spacing from right
 	fmt.Printf("%04d\n", zy) // checks number is 4 digit or not if not adds remaing zeros to it
 }
